@@ -6,5 +6,6 @@ return {
         vim.g.NERDTreeShowHidden = 1
         -- keymaps
         vim.keymap.set("n", "<C-a>", ":NERDTreeToggle<CR>", { noremap = true, silent = true })
+        vim.keymap.set("n", "<C-x>", ":NERDTreeFind<CR>")
     end
 }
